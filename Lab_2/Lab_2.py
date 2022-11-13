@@ -423,21 +423,21 @@ mod = smallConstantToLarge(mod)
 # A)
 # E = nsdEuclid(A, B)
 # print('\nnsdEuclid(A, B) = ', hex(int(E, 2)))
-
+#
 # L = nsk(A, B)
 # print('\nnsk(A, B) = ', hex(int(L, 2)))
-
+#
 # L = longAddMod(A, B, mod)
 # print('\nlongAddMod(A, B, mod) = ', hex(int(L, 2)))
-
+#
 # L = longSubMod(A, B, mod)
 # print('\nlongSubMod(A, B, mod) = ', hex(int(L, 2)))
-
+#
 # L = longMulMod(A, B, mod)
 # print('\nlongMulMod(A, B, mod) = ', hex(int(L, 2)))
-
-# L = powGorner(D, X, mod)
-# print('\npowGorner(D, X, mod) = ', hex(int(L, 2)))
+#
+L = powGorner(D, X, mod)
+print('\npowGorner(D, X, mod) = ', hex(int(L, 2)))
 
 # Б)
 # print('Пункт Б_1):')
